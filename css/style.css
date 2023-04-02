@@ -140,6 +140,8 @@
  .port-info{
    display: flex;
    justify-content: space-between;
+   padding-top: 5px;
+   color: #000000;
  }
 
  section{
@@ -171,6 +173,11 @@
    width: 80%;
   }
 
+.input-container input{
+  padding-left: 10px;
+  color: #000000;
+}
+
 #add-sub-form h2{
   color: white;
 }
@@ -179,7 +186,7 @@
    border-radius: 8px;
    border: none;
    height: 40px;
-   color: #D9D9D9;
+   color: black;
  }
 
  #add-sub-form button{
@@ -190,6 +197,7 @@
    border: 2px solid #7BFFE9;
    color: #7BFFE9;
    background-color: transparent;
+   font-size: 20px;
  }
 
  /* about us page css */
