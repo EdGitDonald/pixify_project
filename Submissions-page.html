@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./css/style.css"/>
+   <title>Pixify</title>
+</head>
+<body>
+   <header>
+       <div class="header-container">
+           <a class="home" href="index.html">PIXIFY</a>
+           <nav class="nav-bar">
+               <a href="Submissions-page.html">2023 Submissions</a>
+               <a href="about-us.html">About</a>
+               <button class="theme-btn">Dark Mode</button>
+           </nav>
+       </div>
+    </header>
+    <h1 class="sub-h1">2023 SUBMISSIONS</h1>
+<main>
+    <div id="subContainer"></div>
+    <div class="buttons-container"></div>   
+    
+
+  <form id="add-sub-form">
+    <h2>SUBMIT YOUR WORK</h2>
+    <div class="input-container">
+        <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="input-container">
+        <input type="text" name="title" placeholder="Title of Your Entry" required>
+    </div>
+    <div class="input-container">
+        <input type="text" name="image1" placeholder="Image Url One" required>
+    </div>
+    <div class="input-container">
+        <input type="text" name="image2" placeholder="Image Url Two">
+    </div>
+    <div class="input-container">
+        <input type="text" name="image3" placeholder="Image Url Three">
+    </div>
+    <div class="input-container">
+        <input type="text" name="image4" placeholder="Image Url Four">
+    </div>
+    <div class="input-container">
+        <input type="text" name="image5" placeholder="Image Url Five">
+    </div>
+    <button type="Submit" id="submit-btn">Submit</button>
+  </form>
+</main>
+
+
+<script src="./scripts/script.js"></script>
+</body>
